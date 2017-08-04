@@ -1,0 +1,106 @@
+#top
+{
+	text-align: center;
+	width: 800px;
+	margin: auto;
+	height: 50px;
+	background-color: red;
+}
+#menu
+{
+
+	text-align: center;
+	width: 800px;
+	margin: auto;
+	height: 50px;
+	background-color: blue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 50px;
+	text-decoration: none;
+}
+#menu ul
+{
+	list-style-type: none;
+	padding: 0px;
+
+}
+
+#menu ul li
+{
+	float: left; 
+	width: 159px;
+	border-left: 1px solid #000000;
+	position: relative;  /* cố định thẻ li mà chúng ta hover*/
+}
+#menu ul li a
+{
+	text-decoration: none;/*bỏ dấu gạch chân khi dùng thẻ <a>*/
+	color: black;
+}
+#menu ul li a:hover /* khi chỉ chuột màu của chữ sẽ thay đổi*/
+{
+	color: grey ;
+}
+
+.submenu
+{
+	display: none; /*ẩn menu con*/
+	position: absolute; z-index: 90; /* menu con sẽ nổi lên <li> định sẵn*/
+	background-color: white;
+	border: 
+}
+.submenu li
+{
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+
+}
+
+#menu li:hover .submenu
+{
+	display: block; /*hiện menu con*/
+}
+
+#total
+{
+	text-align: center;
+	width: 800px;
+	margin: auto;
+	height: 500px;
+	margin-bottom: 10px;
+
+}
+#left
+{
+	text-align: center;
+	width: 160px;
+	height: 500px;
+	background-color: gray;
+	float: left
+
+}
+#between
+{
+	text-align: center;
+	width: 460px;
+	height: 500px;
+	background-color: peru;
+	float: left;
+}
+#right
+{
+	text-align: center;
+	width: 180px;
+	height: 500px;
+	background-color: pink;
+	float: left;
+}
+#last
+{
+	text-align: center;
+	width: 800px;
+	margin: auto;
+	height: 70px;
+	background-color: green;
+}
